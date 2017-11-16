@@ -137,6 +137,8 @@ div#quienes{
 		background-color: #ffffff;
 		margin: auto;
 		text-align: center;
+-webkit-box-shadow: 5px 5px 15px 5px #838383; 
+        box-shadow: 5px 5px 15px 5px #838383;
 }
 
 div#productos{
@@ -147,6 +149,8 @@ div#productos{
 		background-color: #ffffff;
 		border-radius: 1px;
 		text-align: center;
+-webkit-box-shadow: 5px 5px 15px 5px #838383; 
+        box-shadow: 5px 5px 15px 5px #838383;
 }
 
 div#compa{
@@ -157,6 +161,8 @@ div#compa{
 		background-color: #ffffff;
 		border-radius: 1px;
 		text-align: center;
+-webkit-box-shadow: 5px 5px 15px 5px #838383; 
+        box-shadow: 5px 5px 15px 5px #838383;
 }
 
 div#respon{
@@ -167,6 +173,8 @@ div#respon{
 		background-color: #ffffff;
 		border-radius: 1px;
 		text-align: center;
+-webkit-box-shadow: 5px 5px 15px 5px #838383; 
+        box-shadow: 5px 5px 15px 5px #838383;
 }
 
 
@@ -178,6 +186,8 @@ div#valor{
 		background-color: #66d9ff;
 		border-radius: 1px;
 		text-align: center;
+-webkit-box-shadow: 5px 5px 15px 5px #838383; 
+        box-shadow: 5px 5px 15px 5px #838383;
 }
 
 
@@ -189,6 +199,8 @@ div#contacto{
 		background-color: #ffffff;
 		border-radius: 1px;
 		text-align: center;
+-webkit-box-shadow: 5px 5px 15px 5px #838383; 
+        box-shadow: 5px 5px 15px 5px #838383;
 }
 
 
