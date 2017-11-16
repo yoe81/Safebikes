@@ -199,10 +199,21 @@ div#contacto{
 		background-color: #ffffff;
 		border-radius: 1px;
 		text-align: center;
--webkit-box-shadow: 5px 5px 15px 5px #838383; 
+        -webkit-box-shadow: 5px 5px 15px 5px #838383; 
         box-shadow: 5px 5px 15px 5px #838383;
 }
 
+div#promo{
+		width: 64em;
+		margin: 0 auto;
+		max-width: calc(100% - 4em);
+		padding: 2em 4em 2em 4em;
+		background-color: #99c2ff;
+		border-radius: 1px;
+		text-align: center;
+       -webkit-box-shadow: 5px 5px 15px 5px #838383; 
+        box-shadow: 5px 5px 15px 5px #838383;
+}
 
 div#top{
   float: none;
