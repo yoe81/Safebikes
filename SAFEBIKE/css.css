@@ -1,0 +1,406 @@
+* {
+	
+  margin: 0;
+  
+  padding: 0;
+  
+}
+
+
+body{
+  
+  text-align: center;
+  
+  font-weight: bolder;
+  
+  font-family: Comic Sans MS;
+  
+  font-size: 25px;
+  
+}
+
+
+header{
+	
+  position: fixed;
+	
+  z-index: 2;
+	
+  margin: 0 auto;
+  
+  padding-bottom: 2%;
+	
+  width: 100%;
+	
+  background-color: rgba(0, 0, 0, 0.2);
+	
+}
+
+
+header img{
+	
+  border: 4px solid grey;
+
+  margin-right: 70%;
+  
+  margin-bottom: 10px;
+  
+  border-radius: 900px;
+  
+  width:100px;
+  
+}
+
+
+#menu{
+	
+  width: 100%;
+  
+}
+
+
+li{
+	
+  display:inline;
+  
+  font-size: 10px;
+	
+  padding: 9px;
+	
+  background-color: #2175bc;
+	
+}
+
+
+li:hover{
+	
+  background-color: #42BDFF;
+	
+}
+
+
+a{
+	
+  color: white;
+  
+  text-decoration: none;
+	
+}
+
+
+#contenedor {
+	
+  margin: 0 auto;
+	
+  width: 100%;
+	
+}
+
+
+section {
+	
+  background-attachment: fixed;
+	
+  background-repeat: no-repeat;
+	
+  background-size: cover;
+  
+  width: 100%;
+	
+  margin: 0 auto;
+  
+  padding: 0;
+	
+  overflow: hidden;
+	
+  position: relative;
+	
+}
+
+
+.titulos{
+	
+  font-size: 45px;
+  
+  background-color: rgba(255, 255, 255, 0.7);
+  
+  border: black 2px groove;
+  
+  border-radius: 10px;
+	
+}
+
+
+p{
+	
+  background-color: rgba(255, 255, 255, 0.4);
+	
+  width: 95%;
+  
+  padding: 2%;
+  
+  	margin-left:auto;
+    margin-right:auto;
+	
+}
+
+div#quienes {
+	
+  width: 70%;
+  
+  margin-left: auto;
+  
+  margin-right: auto;
+  
+  margin-top: 20%;
+  
+  margin-bottom: 80%;
+  
+  padding: 2em 4em 2em 4em;
+  
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  border-radius: 1px;
+  
+  box-shadow: 5px 5px 15px 5px black;
+  
+  text-shadow: white 0.2em 0.2em 0.2em;
+  
+}
+
+
+div#productos {
+	
+  width: 70%;
+  
+  margin-left: auto;
+  
+  margin-right: auto;
+  
+  margin-top: 20%;
+  
+  margin-bottom: 80%;
+  
+  padding: 2em 4em 2em 4em;
+  
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  border-radius: 1px;
+  
+  box-shadow: 5px 5px 15px 5px black;
+  
+  text-shadow: white 0.2em 0.2em 0.2em;
+  
+}
+
+
+div#compa {
+	
+  width: 70%;
+  
+  margin-left: auto;
+  
+  margin-right: auto;
+  
+  margin-top: 20%;
+  
+  margin-bottom: 80%;
+  
+  padding: 2em 4em 2em 4em;
+  
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  border-radius: 1px;
+  
+  box-shadow: 5px 5px 15px 5px black;
+  
+  text-shadow: white 0.2em 0.2em 0.2em;
+  
+}
+
+
+div#respon {
+	
+  width: 70%;
+  
+  margin-left: auto;
+  
+  margin-right: auto;
+  
+  margin-top: 20%;
+  
+  margin-bottom: 80%;
+  
+  padding: 2em 4em 2em 4em;
+  
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  border-radius: 1px;
+  
+  box-shadow: 5px 5px 15px 5px black;
+  
+  text-shadow: white 0.2em 0.2em 0.2em;
+  
+}
+
+
+div#valor {
+	
+  width: 70%;
+  
+  margin-left: auto;
+  
+  margin-right: auto;
+  
+  margin-top: 20%;
+  
+  margin-bottom: 80%;
+  
+  padding: 2em 4em 2em 4em;
+  
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  border-radius: 1px;
+  
+  box-shadow: 5px 5px 15px 5px black;
+  
+  text-shadow: white 0.2em 0.2em 0.2em;
+  
+}
+
+
+div#promo {
+	
+  width: 70%;
+  
+  margin-left: auto;
+  
+  margin-right: auto;
+  
+  margin-top: 20%;
+  
+  margin-bottom: 80%;
+  
+  padding: 2em 4em 2em 4em;
+  
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  border-radius: 1px;
+  
+  box-shadow: 5px 5px 15px 5px black;
+  
+  text-shadow: white 0.2em 0.2em 0.2em;
+  
+}
+
+
+div#contacto {
+	
+  width: 70%;
+  
+  margin-left: auto;
+  
+  margin-right: auto;
+  
+  margin-top: 20%;
+  
+  margin-bottom: 2%;
+  
+  padding: 2em 4em 2em 4em;
+  
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  border-radius: 1px;
+  
+  box-shadow: 5px 5px 15px 5px black;
+  
+  text-shadow: white 0.2em 0.2em 0.2em;
+  
+}
+
+
+#seccion-1 {
+	
+  background-image: url(imagenes/bike-2640826_1920.jpg);
+  
+  background-size: 100% 100%;
+	
+}
+
+
+#seccion-2 {
+	
+  background-image: url(imagenes/bicycle-1838604_1920.jpg);
+  
+  background-size: 100% 100%;
+	
+}
+
+
+#seccion-3 {
+	
+  background-image: url(imagenes/bicycle-2223118_1280.jpg);
+  
+  background-size: 100% 100%;
+	
+}
+
+
+#seccion-4 {
+	
+  background-image: url(imagenes/bike-1783498_1920.jpg);
+  
+  background-size: 100% 100%;
+	
+}
+
+
+#seccion-5 {
+	
+  background-image: url(imagenes/bicycle-1838605_1920.jpg);
+  
+  background-size: 100% 100%;
+	
+}
+
+
+#seccion-6 {
+	
+  background-image: url(imagenes/social-media-2786261_1920.jpg);
+  
+  background-size: 100% 100%;
+	
+}
+
+
+#sorteo {
+	
+  background-image: url(imagenes/checklist-1622517_1920.png);
+  
+  background-size: 100% 100%;
+	
+}
+
+
+iframe{
+
+  width: 600px;
+	
+  height: 450px;
+	
+}
+
+
+footer {
+	
+  background: #000000;
+	
+  color: #FFFFFF;
+  
+  padding: 1px;
+	
+  margin-left: auto;
+	
+  margin-right: auto;
+	
+}
