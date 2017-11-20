@@ -223,6 +223,17 @@ div#top{
   background-color:#f4f4f4;
   margin:0 auto;
 }
+.form{
+position:relative;
+width:500px;
+height:600px;
+padding-left:20px;
+padding-top:15px;
+background-color:#81F781;
+border-radius: 20px:
+margin:auto;
+text-align:center;
+}
 input[type=text],[type=email]{
 width:470px;
 height:35px;
