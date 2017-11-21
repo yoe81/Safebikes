@@ -1,10 +1,10 @@
 <?php
-	$conectar=mysqli_connect('localhost','root','','incripcion');
+	$conectar=mysqli_connect('localhost','root','','rifa');
 		if(!$conectar){
 		echo"No se pudo conectar con el servidor"; 
 		}
 			else{
-			$db=mysqli_select_db($conectar,'$incripcion');
+			$db=mysqli_select_db($conectar,'$rifa');
 		if(!$base){
 			echo"No se encontro la Base de Datos";
 				}
