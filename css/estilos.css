@@ -134,7 +134,7 @@ div#quienes{
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
-		background-color: #ffffff;
+		background-color: #99c2ff;
 		margin: auto;
 		text-align: center;
 -webkit-box-shadow: 5px 5px 15px 5px #838383; 
@@ -146,7 +146,7 @@ div#productos{
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
-		background-color: #ffffff;
+		background-color: #99c2ff;
 		border-radius: 1px;
 		text-align: center;
 -webkit-box-shadow: 5px 5px 15px 5px #838383; 
@@ -158,7 +158,7 @@ div#compa{
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 4em 4em;
-		background-color: #ffffff;
+		background-color: #99c2ff;
 		border-radius: 1px;
 		text-align: center;
 -webkit-box-shadow: 5px 5px 15px 5px #838383; 
@@ -170,7 +170,7 @@ div#respon{
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
-		background-color: #ffffff;
+		background-color: #99c2ff;
 		border-radius: 1px;
 		text-align: center;
 -webkit-box-shadow: 5px 5px 15px 5px #838383; 
@@ -183,7 +183,7 @@ div#valor{
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
-		background-color: #66d9ff;
+		background-color: #99c2ff;
 		border-radius: 1px;
 		text-align: center;
 -webkit-box-shadow: 5px 5px 15px 5px #838383; 
@@ -196,7 +196,7 @@ div#contacto{
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
-		background-color: #ffffff;
+		background-color: #99c2ff;
 		border-radius: 1px;
 		text-align: center;
         -webkit-box-shadow: 5px 5px 15px 5px #838383; 
