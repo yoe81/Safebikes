@@ -93,7 +93,7 @@ aside{
 aside img{
   width:150px;
 }
-footer{
+footer, p{
 	background:#000000;
 	color:#FFFFFF;
 	clear:both;
