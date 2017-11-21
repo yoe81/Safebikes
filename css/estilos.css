@@ -128,9 +128,18 @@ div#menu ul a:hover{
 }
 
 
+
+div#general{
+  float: none;
+  width:900px;
+  height:auto;
+  padding:none;
+  margin:0 auto;
+    
+}
 div#quienes{
     float: none;
-		width: 90%;
+		width: 45em;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
@@ -142,7 +151,7 @@ div#quienes{
 }
 
 div#productos{
-		width: 64em;
+		width: 45em;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
@@ -154,7 +163,7 @@ div#productos{
 }
 
 div#compa{
-		width: 64em;
+		width: 45em;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 4em 4em;
@@ -165,21 +174,31 @@ div#compa{
         box-shadow: 5px 5px 15px 5px #838383;
 }
 
+div#galeria{
+		width: 45em;
+		margin: 0 auto;
+		padding: 2em 4em 2em 4em;
+		background-color: #99c2ff;
+		border-radius: 4px;
+		text-align: center;
+        -webkit-box-shadow: 5px 5px 15px 5px #838383; 
+        box-shadow: 5px 5px 15px 5px #838383;
+}
 div#respon{
-		width: 64em;
+		width: 45em;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
 		background-color: #99c2ff;
 		border-radius: 1px;
 		text-align: center;
--webkit-box-shadow: 5px 5px 15px 5px #838383; 
+        -webkit-box-shadow: 5px 5px 15px 5px #838383; 
         box-shadow: 5px 5px 15px 5px #838383;
 }
 
 
 div#valor{
-		width: 64em;
+		width: 45em;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
@@ -192,7 +211,7 @@ div#valor{
 
 
 div#contacto{
-		width: 64em;
+		width: 45em;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
@@ -203,8 +222,10 @@ div#contacto{
         box-shadow: 5px 5px 15px 5px #838383;
 }
 
+
+
 div#promo{
-		width: 64em;
+		width: 45em;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 2em 4em 2em 4em;
@@ -224,14 +245,13 @@ div#top{
   margin:0 auto;
 }
 .form{
-position:relative;
+position:center;
 width:45em;
 height:600px;
-padding-left:20px;
-padding-top:15px;
+  padding:4em 4em 2em 4em;
+  margin:0 auto;
 background-color:#99c2ff;
 border-radius: 20px:
-margin: 0 auto;
 text-align:center;
 }
 input[type=text],[type=email]{
