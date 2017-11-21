@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset ="utf-8">
+		<title>Formulario de Incripción</title>
+		<link rel ="stylesheet" type="text/css" href="estilo.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+				integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+				crossorigin="anonymous"></script>
+		<script type="text/javascript" src="safebike.js"></script>
+
+	</head>
+	<body>
+		<div class="form">
+			<p>Cédula</p>
+			<label for="cedula">Ingrese su número de cédula</label>
+			<input type="text" name="cedula" id="cedula" placeholder="Cédula" onfocus="remueveError(this)" required>
+			<p>Nombre</p>
+			<label for="nombre">Ingrese su Nombre</label>
+			<input type="text" name="nombre" id="nombre" placeholder="Nombre" onfocus="remueveError(this)" required>
+			<p>Apellido</p>
+			<label for="apellido">Ingrese su Apellido</label>
+			<input type="text" name="apellido" id="apellido" placeholder="Apellido" onfocus="remueveError(this)" required>
+			<p>Correo</p>
+			<label for="correo">Dirección de Correo</label>
+			<input type="email" name="correo" id="email" placeholder="alguien@algo.com" onfocus="remueveError(this)" required>
+			<p>Comentario</p>
+			<label for="comentario">Deja tus Comentarios</label>
+			<textarea name="comentario" id="comentario" placeholder="Comentarios" onfocus="remueveError(this)" required></textarea>
+			<input type="submit" value="Envíar" id="enviar">
+		</div>
+	
+	</body>
+
+</html>
