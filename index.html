@@ -9,9 +9,11 @@
 
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 		<link rel ="stylesheet" type="text/css" href="css/estilos.css">
-		<script></script>
+		
+        <script></script>
 	</head>
 	<body>
+        
 		<header>
 			
 			<div id="menu">
@@ -26,10 +28,12 @@
                     <li><a href="#respon">Nuestra responsabilidad</a></li>
                     <li><a href="#valor">Propuesta de valor</a></li>
                     <li><a href="#contacto">Contactenos</a></li>
-                    
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Ingresa</button>
 				</ul>
 			</div>	
 		</header>
+        
+        
 		<div id="imgSuperior">
 			<img src="imagenes/1.jpg">
 		</div>
@@ -198,6 +202,35 @@
 	
 		<footer class="oscuro">
 			<p> Términos de Uso</p>      <p> Copyright © 2017 SAFEBIKE. Todos los derechos reservados.</p> 
+            <br>
+            <p> Contador de visitas.</p>
+            <br>
+            <center><a href="https://www.cerotec.net/estadisticas-114467/safebikes.com" title="mis estadísticas"><img src="https://www.cerotec.net/contador.php?t=1&s=3&i=114467" alt="Contador de visitas y estadísticas"></a> <br><a href='https://www.cerotec.net' style='font-size:12px;' >www.cerotec.net</a></center>
+            
 		</footer>
+            <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="imagenes/avatar.png" alt="Avatar" class="avatar" width="50px">
+    </div>
+
+    <div class="container">
+      <label><b>Usuario</b></label>
+      <input type="text" placeholder="Ingrese nombre de usuario" name="uname" required>
+
+      <label><b>Contraseña</b></label>
+      <input type="password" placeholder="Ingrese su contraseña" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Recuerdame
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+      <span class="psw">Recordar <a href="#">contraseña?</a></span>
+    </div>
+
 	</body>
 </html>

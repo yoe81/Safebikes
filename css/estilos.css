@@ -23,6 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	letter-spacing: 0.375rem;
 	text-align: center;
+    color: black;
+
 	}
 
 a{      
@@ -30,6 +32,15 @@ a{
     text-decoration: none;
 	text-align: center;
 	margin: 0 auto;
+}
+button {
+    background-color: #2274bd;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
 p{      
@@ -107,11 +118,6 @@ footer {
     padding: 11px;
     text-align: center;
 }
-
-
-
-
-
 
 
 div#general{
@@ -344,4 +350,277 @@ div#menu ul a:hover{
     bottom: 20px;
     padding: 20px;
     background: #fff;
+}
+
+#cookieMessage
+
+element {
+}
+.cookieMessage {
+    height: 90px;
+    bottom: -90px;
+}
+.cookieMessage {
+    height: auto;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 50px 10px 10px;
+    clear: both;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 999999999;
+}
+*, body {
+    color: #636363;
+    font-family: 'omnes_regularregular';
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+html {
+    font-size: 10px;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+#cookieClose {
+    position: absolute;
+    top: 0;
+    color: #CFCFCF;
+    right: 10px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+}
+bootswatch.less:11
+a {
+    color: #ff7900;
+    font-family: 'omnessemibold';
+}
+scaffolding.less:49
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+normalize.less:90
+a {
+    background-color: transparent;
+}
+bootswatch.less:2
+*, body {
+    color: #636363;
+    font-family: 'omnes_regularregular';
+}
+vendor-prefixes.less:77
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+Inherited from div#cookieMessage.cookieMessage
+bootswatch.less:2351
+.cookieMessage {
+    height: auto;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 50px 10px 10px;
+    clear: both;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 999999999;
+}
+bootswatch.less:2
+*, body {
+    color: #636363;
+    font-family: 'omnes_regularregular';
+}
+Inherited from div#mm-0.wrapper.mm-page.mm-slideout
+bootswatch.less:2
+*, body {
+    color: #636363;
+    font-family: 'omnes_regularregular';
+}
+Inherited from body.home
+bootswatch.less:2
+*, body {
+    color: #636363;
+    font-family: 'omnes_regularregular';
+}
+scaffolding.less:28
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+scaffolding.less:23
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+normalize.less:10
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+bootswatch.less:2
+*, body {
+    color: #636363;
+    font-family: 'omnes_regularregular';
+}
+Pseudo ::before element
+vendor-prefixes.less:77
+*:before, *:after {
+    box-sizing: border-box;
+}
+Pseudo ::after element
+vendor-prefixes.less:77
+*:before, *:after {
+    box-sizing: border-box;
+}
+position0
+759margin‒
+‒border‒
+‒padding‒
+‒25 × 35‒
+‒‒
+‒‒
+‒10
+55
+
+Filter
+
+Show all
+background-color:
+rgba(0, 0, 0, 0)
+;
+box-sizing:
+border-box
+;
+color:
+rgb(207, 207, 207)
+;
+cursor:
+auto
+;
+display:
+block
+;
+font-family:
+omnessemibold
+
+
+cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+avatar {
+    width: 70px;
+    border-radius: 80%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
 }
